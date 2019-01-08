@@ -1,17 +1,19 @@
 # Lab40101aboutMeQuiz
 
-401 Lab 01 About Me Quiz
+Lab 40101 About Me Quiz
 
 Developer: Andrew Hinojosa
+
 Contributors: Kent Ketter
+
 
 Actual Time to complete: 3 Hours
 
-**User must create a new project in Visual Studio. 
-**User must push project to Github.
-**User must create a README.md (after pushing project to Github.
-**User must create 5 different questions of something fun, unique, or interesting about yourself.
-**User must use a Main method, external methods with different return types, and at least one try/catch/finally implementation.
+* User must create a new project in Visual Studio. 
+* User must push project to Github.
+* User must create a README.md (after pushing project to Github.
+* User must create 5 different questions of something fun, unique, or interesting about yourself.
+* User must use a Main method, external methods with different return types, and at least one try/catch/finally implementation.
 
 Purpose of the program to create an About Me Quiz using C# languange's Main method, external methods, and at least one try/catch/finally implementation.
 
