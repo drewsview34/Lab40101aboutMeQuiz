@@ -23,4 +23,4 @@ Here is a visual of what the program looks like.
 
 Successful Output
 
-![output](https://github.com/drewsview34/codeCalculator401/blob/master/Assests/Capture.PNG)
+![output](https://github.com/drewsview34/Lab40101aboutMeQuiz/blob/master/Assets/Capture.PNG)
