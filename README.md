@@ -19,3 +19,6 @@ To Run the program, user must click the start button (Green arrow) in Visual Stu
 
 Here is a visual of what the program looks like.
 
+Successful Output
+
+![output](https://github.com/drewsview34/codeCalculator401/blob/master/Assests/Capture.PNG)
