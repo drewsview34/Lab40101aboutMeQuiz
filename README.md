@@ -4,7 +4,8 @@ Lab 40101 About Me Quiz
 
 Developer: Andrew Hinojosa
 
-Contributors: Ray Johnson && Jason Few
+Contributors: Kent Ketter
+
 
 Actual Time to complete: 3 Hours
 
