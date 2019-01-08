@@ -14,16 +14,16 @@ namespace Lab40101aboutMeQuiz
             int answerTwo = 33;
             Q2(answerTwo);
 
-            string answerThree = "kj";
+            string answerThree = "seattle";
             Q3(answerThree);
 
-            bool answerFour = false;
+            bool answerFour = true;
             Q4(answerFour);
 
-            int answerFive = 2006;
+            string answerFive = "sunnyside";
             Q5(answerFive);
 
-            Console.WriteLine("The game is complete! Thank you for playing");
+            Console.WriteLine("You've completed the quiz. Now you know about Andrew.");
             Console.ReadLine();
 
         }
@@ -59,61 +59,62 @@ namespace Lab40101aboutMeQuiz
             }
             else
             {
-                Console.WriteLine($"Incorrect! I am {answerTwo} years young.");
+                Console.WriteLine($"Incorrect! I am {answerTwo} years old.");
                 return answerTwo;
             }
         }
-        static string Q3(string answer3)
+        static string Q3(string answerThree)
         {
-            Console.WriteLine("Question 3: What was my nickname growing up? (Hint: 2 Letter Nickname)");
-            string guess3 = Console.ReadLine();
-            string guess3L = guess3.ToLower();
-            if (answer3 == guess3L)
+            Console.WriteLine("Question 3: Where was I born?");
+            string guessThree = Console.ReadLine();
+            string guessThreeConverted = guessThree.ToLower();
+
+            if (answerThree == guessThreeConverted)
             {
-                Console.WriteLine($"Correct! My nickname growing up was {answer3}!");
-                return answer3;
+                Console.WriteLine($"Correct! I was born in {answerThree}.");
+                return answerThree;
             }
             else
             {
-                Console.WriteLine($"Incorrect! My nickname growing up was {answer3}! Not very original I know");
-                return answer3;
+                Console.WriteLine($"Incorrect! I was born in {answerThree}.");
+                return answerThree;
             }
         }
-        static bool Q4(bool answer4)
+        static bool Q4(bool answerFour)
         {
-            Console.WriteLine("Question 1: True or False? I served in the Navy?");
-            string guess4 = Console.ReadLine();
-            guess4.ToLower();
-            bool guessB2 = Convert.ToBoolean(guess4);
+            Console.WriteLine("Question 4: True or False? I worked at kfc/taco bell?");
+            string guessFour = Console.ReadLine();
+            guessFour.ToLower();
+            bool guessFourConverted = Convert.ToBoolean(guessFour);
 
-            if (answer4 == guessB2)
+            if (answerFour == guessFourConverted)
             {
-                Console.WriteLine("Correct guess. I did not serve in the Navy! I served in the Army from '07-'13. Beat Navy!");
-                return answer4;
+                Console.WriteLine($"Correct! I worked at kfc/taco bell when I was 16 years old.");
+                return answerFour;
             }
             else
             {
-                Console.WriteLine("Incorrect guess.  I served in the Army from 07'-'13. Go Army, Beat Navy!");
-                answer4 = true;
-                return answer4;
+                Console.WriteLine($"Incorrect!  I worked at kfc/taco bell when I was 16 years old.");
+                answerFour = true;
+                return answerFour;
             }
 
         }
-        static int Q5(int answer5)
+        static string Q5(string answerFive)
         {
-            Console.WriteLine("Question 5: What year did I graduate high school? (4 digit year)?");
-            string guess2 = Console.ReadLine();
-            int guessI2 = Convert.ToInt32(guess2);
+            Console.WriteLine("Question 5: What city did I grow up in?");
+            string guessFive = Console.ReadLine();
+            string guessFiveConverted = guessFive.ToLower();
 
-            if (answer5 == guessI2)
+            if (answerFive == guessFiveConverted)
             {
-                Console.WriteLine($"Correct! I graduated from high school in {answer5}.");
-                return answer5;
+                Console.WriteLine($"Correct! I was born in {answerFive}.");
+                return answerFive;
             }
             else
             {
-                Console.WriteLine($"Incorrect! I graduated from high school in {answer5}.");
-                return answer5;
+                Console.WriteLine($"Incorrect! I was born in {answerFive}.");
+                return answerFive;
             }
         }
     }
