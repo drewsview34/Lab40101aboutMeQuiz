@@ -1,6 +1,6 @@
 # Lab40101aboutMeQuiz
 
-401 Lab 01 About Me Quiz
+Lab 40101 About Me Quiz
 
 Developer: Andrew Hinojosa
 
