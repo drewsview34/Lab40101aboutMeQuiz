@@ -8,7 +8,7 @@ Contributors: Ray Johnson && Jason Few
 
 Actual Time to complete: 3 Hours
 
-*User must create a new project in Visual Studio. 
+***User must create a new project in Visual Studio. 
 *User must push project to Github.
 *User must create a README.md (after pushing project to Github.
 *User must create 5 different questions of something fun, unique, or interesting about yourself.
