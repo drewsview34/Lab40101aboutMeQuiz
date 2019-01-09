@@ -7,7 +7,7 @@ Developer: Andrew Hinojosa
 Contributors: Kent Ketter
 
 
-Actual Time to complete: 3 Hours
+Actual Time to complete: 9 Hours
 
 * User must create a new project in Visual Studio. 
 * User must push project to Github.
